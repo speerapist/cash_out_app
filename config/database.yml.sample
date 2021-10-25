@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  database: lion_development
+  username: 
+  password: 
+  pool: 5
+  encoding: utf8
+
+test:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  database: lion_test
+  username: 
+  password: 
+  pool: 5
+  encoding: utf8
